@@ -31,6 +31,9 @@ print("The area of the rectangule is... (in cm)", area)
 perimeter = width_retangule + width_retangule + lenght_retangule + lenght_retangule
 print("The perimeter of the rectangule is...(in cm)", perimeter)
 
+print("This is the end of chapter 01 and the end of the first exercise of the book")
+print("I hope you enjoyed and learned a lot. See you in the next chapter.")
+
 
 
 
