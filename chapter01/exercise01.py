@@ -8,26 +8,32 @@ print("Enter the width for the rectangule:...")
 width = input()
 width =int(width)
 
-print("7" * width )
-print("7" * width )
-print("7" * width )
-print("7" * width )
-print("7" * width )
+print("0" * width )
+print("0" * width )
+print("0" * width )
+print("0" * width )
+print("0" * width )
 
 ### PERIMENTER AND AREA CALCULATOR
 ## white a program that accepts the width and length
 
-print("Enter the width for the rectangule...")
+print("Enter the width for the rectangule... (in cm)")
 width_retangule = input()
 width_retangule = int(width_retangule)
 
-print("Enter the lenght for the rectangule...")
+print("Enter the lenght for the rectangule...(in cm)")
 lenght_retangule = input()
 lenght_retangule = int(lenght_retangule)
 
 area = width_retangule * lenght_retangule
+print("The area of the rectangule is... (in cm)", area)
 
-print("The area of the rectangule is...", area)
+perimeter = width_retangule + width_retangule + lenght_retangule + lenght_retangule
+print("The perimeter of the rectangule is...(in cm)", perimeter)
+
+
+
+
 
 
 
